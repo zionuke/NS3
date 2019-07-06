@@ -64,12 +64,14 @@ main (int argc, char *argv[])
       return 1;
     }
 
+  //设置日志等级
   if (verbose)
     {
       LogComponentEnable ("UdpEchoClientApplication", LOG_LEVEL_INFO);
       LogComponentEnable ("UdpEchoServerApplication", LOG_LEVEL_INFO);
     }
 
+  //P2P节点及设备信息设置
   NodeContainer p2pNodes;
   p2pNodes.Create (2);
 
@@ -80,6 +82,7 @@ main (int argc, char *argv[])
   NetDeviceContainer p2pDevices;
   p2pDevices = pointToPoint.Install (p2pNodes);
 
+  //csma节点及设备设置
   NodeContainer csmaNodes;
   csmaNodes.Add (p2pNodes.Get (1));
   csmaNodes.Create (nCsma);
@@ -91,6 +94,7 @@ main (int argc, char *argv[])
   NetDeviceContainer csmaDevices;
   csmaDevices = csma.Install (csmaNodes);
 
+  //Wifi节点设置
   NodeContainer wifiStaNodes;
   wifiStaNodes.Create (nWifi);
   NodeContainer wifiApNode = p2pNodes.Get (0);
