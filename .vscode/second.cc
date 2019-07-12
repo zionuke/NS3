@@ -143,7 +143,8 @@ main(int argc, char* argv[])
     //"csma.EnablePcap("second", csmaDevices.Get(nCsma-1), 0);" 
     pointToPoint.EnablePcapAll ("second", p2pNodes.Get(0)->GetId(), 0);
     //最后一项为explicitFilename,默认false,不加也可；若为true,将prefix作为文件名
-    //倒数第二项promiscuous,默认false,此处仅想跟踪一个设备，此处仅像跟踪一个设备，故设为0(false);当有一个节点和设备的promiscuous模式为true时，CSMA网段其他节点便不再产生trace文件。)
+    //倒数第二项promiscuous,默认false,此处仅想跟踪一个设备，此处仅像跟踪一个设备，故设为0(false);当有一个节点和设备的promiscuous模式为true时，
+    //CSMA网段其他节点便不再产生trace文件。)
     csma.EnablePcap ("second", csmaNodes.Get (nCsma)->GetId(), 0, false);
     csma.EnablePcap ("second", csmaNodes.Get (nCsma-1)->GetId(), 0, false);
 
