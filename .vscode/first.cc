@@ -56,7 +56,8 @@ main (int argc, char *argv[])
     /*这两行代码会完成设备和信道的配置。第一行声明了上面提到的设备容器，第二行完成了主要工作。
     PointToPointHelper的Install()方法以一个NodeContainer对象作为一个参数。在Install()方法内，一个NetDeviceContainer被创建了。
     对于在NodeContainer对象中的每一个节点（对于一个点到点链路必须明确有2个节点），一个PointToPointNetDevice被创建和保存在设备容器内。
-    一个PointToPointChannel对象被创建，2个PointToPointNetDevices与之连接。当PointToPointHelper对象创建时，那些在助手中就被设置的属性被用来初始化对象对应的属性值。
+    一个PointToPointChannel对象被创建，2个PointToPointNetDevices与之连接。当PointToPointHelper对象创建时，
+    那些在助手中就被设置的属性被用来初始化对象对应的属性值。
     当调用了pointToPoint.Install(nodes)后，会有2个节点，每一个节点安装了点到点网络设备，
     在它们之间是一个点到点信道。2个设备会被配置在一个有2ms传输时延的信道上以5Mbit/s的速率传输数据。*/
     NetDeviceContainer devices;
