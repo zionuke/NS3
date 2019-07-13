@@ -1,0 +1,19 @@
+Common Settings:
+simTime : 0.2
+userNumber : 4
+
+=======================================================
+File Name Format:  choice_distAllocer_distance
+
+Params: 
+choice : [3, 4, 5]
+distAllocer : 2
+distance : [400, 800]
+
+Commands:
+taskset -c 0 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=4 --choice=3 --distAllocer=2 --distance=400" > Ellipse/3_2_400 &
+taskset -c 1 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=4 --choice=4 --distAllocer=2 --distance=400" > Ellipse/4_2_400 &
+taskset -c 2 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=4 --choice=5 --distAllocer=2 --distance=400" > Ellipse/5_2_400 &
+taskset -c 3 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=4 --choice=3 --distAllocer=2 --distance=800" > Ellipse/3_2_800 &
+taskset -c 4 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=4 --choice=4 --distAllocer=2 --distance=800" > Ellipse/4_2_800 &
+taskset -c 5 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=4 --choice=5 --distAllocer=2 --distance=800" > Ellipse/5_2_800 &
