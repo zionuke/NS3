@@ -1,0 +1,41 @@
+Waf: Entering directory `/home/liuzhichao/ns3-simulation/build'
+Waf: Leaving directory `/home/liuzhichao/ns3-simulation/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (6.380s)
+ns3::MmWaveMacSchedulerOfdmaPF
+Flow 1 (1.0.0.2:49153 -> 7.0.0.2:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   914920
+  Throughput: 69.8029 Mbps
+  Mean delay:  15.1325 ms
+  Mean jitter:  0.0308002 ms
+  Rx Packets: 890
+Flow 2 (1.0.0.2:49154 -> 7.0.0.3:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   914920
+  Throughput: 69.8029 Mbps
+  Mean delay:  15.1441 ms
+  Mean jitter:  0.0383618 ms
+  Rx Packets: 890
+Flow 3 (1.0.0.2:49155 -> 7.0.0.4:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   914920
+  Throughput: 69.8029 Mbps
+  Mean delay:  15.1325 ms
+  Mean jitter:  0.0308002 ms
+  Rx Packets: 890
+Flow 4 (1.0.0.2:49156 -> 7.0.0.5:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   1191452
+  Throughput: 90.9006 Mbps
+  Mean delay:  4.33987 ms
+  Mean jitter:  0.0155925 ms
+  Rx Packets: 1159
