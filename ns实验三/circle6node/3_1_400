@@ -1,0 +1,77 @@
+Waf: Entering directory `/home/liuzhichao/ns3-simulation/build'
+Waf: Leaving directory `/home/liuzhichao/ns3-simulation/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (6.370s)
+ns3::MmWaveMacSchedulerOfdmaRR
+Flow 1 (1.0.0.2:49153 -> 7.0.0.2:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   599324
+  Throughput: 45.7248 Mbps
+  Mean delay:  24.2583 ms
+  Mean jitter:  0.0889311 ms
+  Rx Packets: 583
+Flow 2 (1.0.0.2:49154 -> 7.0.0.3:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   599324
+  Throughput: 45.7248 Mbps
+  Mean delay:  24.4292 ms
+  Mean jitter:  0.105466 ms
+  Rx Packets: 583
+Flow 3 (1.0.0.2:49155 -> 7.0.0.4:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   687732
+  Throughput: 52.4698 Mbps
+  Mean delay:  20.8281 ms
+  Mean jitter:  0.0680465 ms
+  Rx Packets: 669
+Flow 4 (1.0.0.2:49156 -> 7.0.0.5:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   815204
+  Throughput: 62.1951 Mbps
+  Mean delay:  15.8653 ms
+  Mean jitter:  0.0513751 ms
+  Rx Packets: 793
+Flow 5 (1.0.0.2:49157 -> 7.0.0.6:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   591100
+  Throughput: 45.0974 Mbps
+  Mean delay:  26.5698 ms
+  Mean jitter:  0.0916206 ms
+  Rx Packets: 575
+Flow 6 (1.0.0.2:49158 -> 7.0.0.7:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   687732
+  Throughput: 52.4698 Mbps
+  Mean delay:  20.8281 ms
+  Mean jitter:  0.0680465 ms
+  Rx Packets: 669
+Flow 7 (1.0.0.2:49159 -> 7.0.0.8:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   344380
+  Throughput: 26.2741 Mbps
+  Mean delay:  34.1862 ms
+  Mean jitter:  0.213523 ms
+  Rx Packets: 335
+Flow 8 (1.0.0.2:49160 -> 7.0.0.9:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   262140
+  Throughput: 19.9997 Mbps
+  Mean delay:  37.4073 ms
+  Mean jitter:  0.305241 ms
+  Rx Packets: 255

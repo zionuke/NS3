@@ -1,7 +1,0 @@
-Waf: Entering directory `/home/liuzhichao/ns3-simulation/build'
-[2774/2824] Compiling scratch/training1.cc
-[2824/2824] Linking build/scratch/training1
-Waf: Leaving directory `/home/liuzhichao/ns3-simulation/build'
-Build commands will be stored in build/compile_commands.json
-'build' finished successfully (11.295s)
-ns3::MmWaveMacSchedulerOfdmaPF
