@@ -1,0 +1,77 @@
+Waf: Entering directory `/home/liuzhichao/ns3-simulation/build'
+Waf: Leaving directory `/home/liuzhichao/ns3-simulation/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (6.339s)
+ns3::MmWaveMacSchedulerOfdmaRR
+Flow 1 (1.0.0.2:49153 -> 7.0.0.2:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   296064
+  Throughput: 22.5879 Mbps
+  Mean delay:  39.2124 ms
+  Mean jitter:  0.261642 ms
+  Rx Packets: 288
+Flow 2 (1.0.0.2:49154 -> 7.0.0.3:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   295036
+  Throughput: 22.5095 Mbps
+  Mean delay:  39.3711 ms
+  Mean jitter:  0.261852 ms
+  Rx Packets: 287
+Flow 3 (1.0.0.2:49155 -> 7.0.0.4:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   340268
+  Throughput: 25.9604 Mbps
+  Mean delay:  37.5349 ms
+  Mean jitter:  0.217826 ms
+  Rx Packets: 331
+Flow 4 (1.0.0.2:49156 -> 7.0.0.5:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   427648
+  Throughput: 32.627 Mbps
+  Mean delay:  34.0948 ms
+  Mean jitter:  0.160037 ms
+  Rx Packets: 416
+Flow 5 (1.0.0.2:49157 -> 7.0.0.6:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   264196
+  Throughput: 20.1566 Mbps
+  Mean delay:  40.3175 ms
+  Mean jitter:  0.302866 ms
+  Rx Packets: 257
+Flow 6 (1.0.0.2:49158 -> 7.0.0.7:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   340268
+  Throughput: 25.9604 Mbps
+  Mean delay:  37.5399 ms
+  Mean jitter:  0.218309 ms
+  Rx Packets: 331
+Flow 7 (1.0.0.2:49159 -> 7.0.0.8:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   296064
+  Throughput: 22.5879 Mbps
+  Mean delay:  39.2124 ms
+  Mean jitter:  0.261642 ms
+  Rx Packets: 288
+Flow 8 (1.0.0.2:49160 -> 7.0.0.9:1234) proto UDP
+  Tx Packets: 1251
+  Tx Bytes:   1286028
+  TxOffered:  98.1161 Mbps
+  Rx Bytes:   181956
+  Throughput: 13.8821 Mbps
+  Mean delay:  43.8324 ms
+  Mean jitter:  0.476244 ms
+  Rx Packets: 177

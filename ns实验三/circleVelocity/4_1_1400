@@ -1,5 +1,0 @@
-Waf: Entering directory `/home/liuzhichao/ns3-simulation/build'
-Waf: Leaving directory `/home/liuzhichao/ns3-simulation/build'
-Build commands will be stored in build/compile_commands.json
-'build' finished successfully (6.308s)
-ns3::MmWaveMacSchedulerOfdmaPF

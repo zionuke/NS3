@@ -1,0 +1,28 @@
+Common Settings:
+simTime : 0.2
+userNumber : 6
+
+=======================================================
+File Name Format:  choice_distAllocer_distance
+
+Params: 
+choice : [3, 4, 5]
+distAllocer : 1
+distance : [400, 600, 800, 1000, 1200]
+
+Commands:
+taskset -c 0 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=3 --distAllocer=1 --distance=400" > circle6node/3_1_400 &
+taskset -c 1 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=4 --distAllocer=1 --distance=400" > circle6node/4_1_400 &
+taskset -c 2 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=5 --distAllocer=1 --distance=400" > circle6node/5_1_400 &
+taskset -c 3 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=3 --distAllocer=1 --distance=600" > circle6node/3_1_600 &
+taskset -c 4 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=4 --distAllocer=1 --distance=600" > circle6node/4_1_600 &
+taskset -c 5 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=5 --distAllocer=1 --distance=600" > circle6node/5_1_600 &
+taskset -c 6 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=3 --distAllocer=1 --distance=800" > circle6node/3_1_800 &
+taskset -c 7 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=4 --distAllocer=1 --distance=800" > circle6node/4_1_800 &
+taskset -c 8 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=5 --distAllocer=1 --distance=800" > circle6node/5_1_800 &
+taskset -c 9 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=3 --distAllocer=1 --distance=1000" > circle6node/3_1_1000 &
+taskset -c 10 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=4 --distAllocer=1 --distance=1000" > circle6node/4_1_1000 &
+taskset -c 11 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=5 --distAllocer=1 --distance=1000" > circle6node/5_1_1000 &
+taskset -c 12 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=3 --distAllocer=1 --distance=1200" > circle6node/3_1_1200 &
+taskset -c 13 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=4 --distAllocer=1 --distance=1200" > circle6node/4_1_1200 &
+taskset -c 14 nohup ./waf --run scratch/training1 --command-template="%s  --simTime=0.2 --userNumber=6 --choice=5 --distAllocer=1 --distance=1200" > circle6node/5_1_1200 &
